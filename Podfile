@@ -11,6 +11,8 @@ target 'MyPhotos' do
   pod 'Masonry'
 
   pod 'AFNetworking', '~> 4.0.1'
+  
+  pod 'SDWebImage'
 
   target 'MyPhotosTests' do
     inherit! :search_paths

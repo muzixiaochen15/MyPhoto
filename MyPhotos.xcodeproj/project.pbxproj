@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40CE02C660073AF87B926A70 /* Pods_MyPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650FE94B616C80C4D34EC80 /* Pods_MyPhotos.framework */; };
+		5C0DB29D3C553CB1050A960F /* Pods_MyPhotos_MyPhotosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E070EB77D15050B43099E429 /* Pods_MyPhotos_MyPhotosUITests.framework */; };
 		90495FDE24DBFF7A00FF239F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90495FDD24DBFF7A00FF239F /* AppDelegate.m */; };
 		90495FE124DBFF7A00FF239F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90495FE024DBFF7A00FF239F /* SceneDelegate.m */; };
 		90495FE424DBFF7A00FF239F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90495FE324DBFF7A00FF239F /* FirstViewController.m */; };
@@ -17,6 +19,22 @@
 		90495FF224DBFF7C00FF239F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90495FF124DBFF7C00FF239F /* main.m */; };
 		90495FFC24DBFF7C00FF239F /* MyPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90495FFB24DBFF7C00FF239F /* MyPhotosTests.m */; };
 		9049600724DBFF7C00FF239F /* MyPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049600624DBFF7C00FF239F /* MyPhotosUITests.m */; };
+		9051B92024DD092800BD9003 /* LocalMutableImgPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B91624DD092700BD9003 /* LocalMutableImgPickViewController.m */; };
+		9051B92124DD092800BD9003 /* SelectImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B91724DD092700BD9003 /* SelectImageCollectionViewCell.m */; };
+		9051B92224DD092800BD9003 /* LocalMutableImgPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B91924DD092800BD9003 /* LocalMutableImgPickView.m */; };
+		9051B92324DD092800BD9003 /* LocalMutableImgCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B91C24DD092800BD9003 /* LocalMutableImgCollectionViewCell.m */; };
+		9051B92424DD092800BD9003 /* SelectImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B91E24DD092800BD9003 /* SelectImageCollectionView.m */; };
+		9051B92524DD092800BD9003 /* LocalImagePhotoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B91F24DD092800BD9003 /* LocalImagePhotoInfo.m */; };
+		9051B92924DD1FAE00BD9003 /* LocalImagePickViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B92724DD1FAE00BD9003 /* LocalImagePickViewModel.m */; };
+		9051B92C24DD1FD400BD9003 /* PhoneAblumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B92A24DD1FD300BD9003 /* PhoneAblumInfo.m */; };
+		9051B92F24DD203D00BD9003 /* LocalAblumImageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B92D24DD203D00BD9003 /* LocalAblumImageTableView.m */; };
+		9051B93224DD207D00BD9003 /* LocalAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B93124DD207D00BD9003 /* LocalAlbumCell.m */; };
+		9051B93724DD234400BD9003 /* CommUtls.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B93624DD234400BD9003 /* CommUtls.m */; };
+		9051B93A24DD238700BD9003 /* EQXConstantUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B93824DD238700BD9003 /* EQXConstantUrl.m */; };
+		9051B94D24DD2DE300BD9003 /* ToastActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B94724DD2DE300BD9003 /* ToastActivityView.m */; };
+		9051B94E24DD2DE300BD9003 /* PageActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B94924DD2DE300BD9003 /* PageActivityView.m */; };
+		9051B94F24DD2DE300BD9003 /* PageActivityViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051B94C24DD2DE300BD9003 /* PageActivityViewInfo.m */; };
+		C84DD72E017DBD268C8BA93D /* Pods_MyPhotosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAEBC09E062886017E6085D /* Pods_MyPhotosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2650FE94B616C80C4D34EC80 /* Pods_MyPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345427BB26330C488E59CCF5 /* Pods-MyPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotos.release.xcconfig"; path = "Target Support Files/Pods-MyPhotos/Pods-MyPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		6DAEBC09E062886017E6085D /* Pods_MyPhotosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPhotosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90495FD924DBFF7A00FF239F /* MyPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90495FDC24DBFF7A00FF239F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90495FDD24DBFF7A00FF239F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +78,43 @@
 		9049600224DBFF7C00FF239F /* MyPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9049600624DBFF7C00FF239F /* MyPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPhotosUITests.m; sourceTree = "<group>"; };
 		9049600824DBFF7C00FF239F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9051B91424DD092700BD9003 /* LocalMutableImgPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalMutableImgPickView.h; path = MutablePick/LocalMutableImgPickView.h; sourceTree = "<group>"; };
+		9051B91524DD092700BD9003 /* LocalMutableImgPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalMutableImgPickViewController.h; path = MutablePick/LocalMutableImgPickViewController.h; sourceTree = "<group>"; };
+		9051B91624DD092700BD9003 /* LocalMutableImgPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalMutableImgPickViewController.m; path = MutablePick/LocalMutableImgPickViewController.m; sourceTree = "<group>"; };
+		9051B91724DD092700BD9003 /* SelectImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectImageCollectionViewCell.m; path = MutablePick/SelectImageCollectionViewCell.m; sourceTree = "<group>"; };
+		9051B91824DD092700BD9003 /* LocalMutableImgCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalMutableImgCollectionViewCell.h; path = MutablePick/LocalMutableImgCollectionViewCell.h; sourceTree = "<group>"; };
+		9051B91924DD092800BD9003 /* LocalMutableImgPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalMutableImgPickView.m; path = MutablePick/LocalMutableImgPickView.m; sourceTree = "<group>"; };
+		9051B91A24DD092800BD9003 /* LocalImagePhotoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalImagePhotoInfo.h; path = MutablePick/LocalImagePhotoInfo.h; sourceTree = "<group>"; };
+		9051B91B24DD092800BD9003 /* SelectImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectImageCollectionViewCell.h; path = MutablePick/SelectImageCollectionViewCell.h; sourceTree = "<group>"; };
+		9051B91C24DD092800BD9003 /* LocalMutableImgCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalMutableImgCollectionViewCell.m; path = MutablePick/LocalMutableImgCollectionViewCell.m; sourceTree = "<group>"; };
+		9051B91D24DD092800BD9003 /* SelectImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectImageCollectionView.h; path = MutablePick/SelectImageCollectionView.h; sourceTree = "<group>"; };
+		9051B91E24DD092800BD9003 /* SelectImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectImageCollectionView.m; path = MutablePick/SelectImageCollectionView.m; sourceTree = "<group>"; };
+		9051B91F24DD092800BD9003 /* LocalImagePhotoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalImagePhotoInfo.m; path = MutablePick/LocalImagePhotoInfo.m; sourceTree = "<group>"; };
+		9051B92724DD1FAE00BD9003 /* LocalImagePickViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalImagePickViewModel.m; path = MutablePick/LocalImagePickViewModel.m; sourceTree = "<group>"; };
+		9051B92824DD1FAE00BD9003 /* LocalImagePickViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalImagePickViewModel.h; path = MutablePick/LocalImagePickViewModel.h; sourceTree = "<group>"; };
+		9051B92A24DD1FD300BD9003 /* PhoneAblumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneAblumInfo.m; path = MutablePick/PhoneAblumInfo.m; sourceTree = "<group>"; };
+		9051B92B24DD1FD300BD9003 /* PhoneAblumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneAblumInfo.h; path = MutablePick/PhoneAblumInfo.h; sourceTree = "<group>"; };
+		9051B92D24DD203D00BD9003 /* LocalAblumImageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalAblumImageTableView.m; path = MutablePick/LocalAblumImageTableView.m; sourceTree = "<group>"; };
+		9051B92E24DD203D00BD9003 /* LocalAblumImageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalAblumImageTableView.h; path = MutablePick/LocalAblumImageTableView.h; sourceTree = "<group>"; };
+		9051B93024DD207D00BD9003 /* LocalAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalAlbumCell.h; path = MutablePick/LocalAlbumCell.h; sourceTree = "<group>"; };
+		9051B93124DD207D00BD9003 /* LocalAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalAlbumCell.m; path = MutablePick/LocalAlbumCell.m; sourceTree = "<group>"; };
+		9051B93424DD22CF00BD9003 /* ConstantUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstantUI.h; path = common/ConstantUI.h; sourceTree = "<group>"; };
+		9051B93524DD234300BD9003 /* CommUtls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommUtls.h; path = common/CommUtls.h; sourceTree = "<group>"; };
+		9051B93624DD234400BD9003 /* CommUtls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommUtls.m; path = common/CommUtls.m; sourceTree = "<group>"; };
+		9051B93824DD238700BD9003 /* EQXConstantUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EQXConstantUrl.m; path = common/EQXConstantUrl.m; sourceTree = "<group>"; };
+		9051B93924DD238700BD9003 /* EQXConstantUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EQXConstantUrl.h; path = common/EQXConstantUrl.h; sourceTree = "<group>"; };
+		9051B94724DD2DE300BD9003 /* ToastActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToastActivityView.m; path = Loading/ToastActivityView.m; sourceTree = "<group>"; };
+		9051B94824DD2DE300BD9003 /* PageActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageActivityView.h; path = Loading/PageActivityView.h; sourceTree = "<group>"; };
+		9051B94924DD2DE300BD9003 /* PageActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageActivityView.m; path = Loading/PageActivityView.m; sourceTree = "<group>"; };
+		9051B94A24DD2DE300BD9003 /* ToastActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToastActivityView.h; path = Loading/ToastActivityView.h; sourceTree = "<group>"; };
+		9051B94B24DD2DE300BD9003 /* PageActivityViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageActivityViewInfo.h; path = Loading/PageActivityViewInfo.h; sourceTree = "<group>"; };
+		9051B94C24DD2DE300BD9003 /* PageActivityViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageActivityViewInfo.m; path = Loading/PageActivityViewInfo.m; sourceTree = "<group>"; };
+		B70970CE202863762997CB8B /* Pods-MyPhotos-MyPhotosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotos-MyPhotosUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyPhotos-MyPhotosUITests/Pods-MyPhotos-MyPhotosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A0926876C4AAD40DDE7829 /* Pods-MyPhotosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotosTests.debug.xcconfig"; path = "Target Support Files/Pods-MyPhotosTests/Pods-MyPhotosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E070EB77D15050B43099E429 /* Pods_MyPhotos_MyPhotosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPhotos_MyPhotosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26E87B6D103C2801143B9FA /* Pods-MyPhotosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotosTests.release.xcconfig"; path = "Target Support Files/Pods-MyPhotosTests/Pods-MyPhotosTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3AE07D3310D821B07104A10 /* Pods-MyPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotos.debug.xcconfig"; path = "Target Support Files/Pods-MyPhotos/Pods-MyPhotos.debug.xcconfig"; sourceTree = "<group>"; };
+		F24DAE607DACFC905FBCAB17 /* Pods-MyPhotos-MyPhotosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotos-MyPhotosUITests.release.xcconfig"; path = "Target Support Files/Pods-MyPhotos-MyPhotosUITests/Pods-MyPhotos-MyPhotosUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CE02C660073AF87B926A70 /* Pods_MyPhotos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84DD72E017DBD268C8BA93D /* Pods_MyPhotosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +138,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0DB29D3C553CB1050A960F /* Pods_MyPhotos_MyPhotosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F3D6943EB11CFEE7F57B896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE07D3310D821B07104A10 /* Pods-MyPhotos.debug.xcconfig */,
+				345427BB26330C488E59CCF5 /* Pods-MyPhotos.release.xcconfig */,
+				B70970CE202863762997CB8B /* Pods-MyPhotos-MyPhotosUITests.debug.xcconfig */,
+				F24DAE607DACFC905FBCAB17 /* Pods-MyPhotos-MyPhotosUITests.release.xcconfig */,
+				C0A0926876C4AAD40DDE7829 /* Pods-MyPhotosTests.debug.xcconfig */,
+				E26E87B6D103C2801143B9FA /* Pods-MyPhotosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		90495FD024DBFF7A00FF239F = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +165,8 @@
 				90495FFA24DBFF7C00FF239F /* MyPhotosTests */,
 				9049600524DBFF7C00FF239F /* MyPhotosUITests */,
 				90495FDA24DBFF7A00FF239F /* Products */,
+				6F3D6943EB11CFEE7F57B896 /* Pods */,
+				9D8CA29B2F3126ACA8FD6665 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +183,9 @@
 		90495FDB24DBFF7A00FF239F /* MyPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				9051B93D24DD2A2200BD9003 /* Loading */,
+				9051B93324DD22AD00BD9003 /* Common */,
+				9051B91324DD08CB00BD9003 /* MutablePick */,
 				90495FDC24DBFF7A00FF239F /* AppDelegate.h */,
 				90495FDD24DBFF7A00FF239F /* AppDelegate.m */,
 				90495FDF24DBFF7A00FF239F /* SceneDelegate.h */,
@@ -142,6 +221,68 @@
 			path = MyPhotosUITests;
 			sourceTree = "<group>";
 		};
+		9051B91324DD08CB00BD9003 /* MutablePick */ = {
+			isa = PBXGroup;
+			children = (
+				9051B93024DD207D00BD9003 /* LocalAlbumCell.h */,
+				9051B93124DD207D00BD9003 /* LocalAlbumCell.m */,
+				9051B92E24DD203D00BD9003 /* LocalAblumImageTableView.h */,
+				9051B92D24DD203D00BD9003 /* LocalAblumImageTableView.m */,
+				9051B92B24DD1FD300BD9003 /* PhoneAblumInfo.h */,
+				9051B92A24DD1FD300BD9003 /* PhoneAblumInfo.m */,
+				9051B92824DD1FAE00BD9003 /* LocalImagePickViewModel.h */,
+				9051B92724DD1FAE00BD9003 /* LocalImagePickViewModel.m */,
+				9051B91A24DD092800BD9003 /* LocalImagePhotoInfo.h */,
+				9051B91F24DD092800BD9003 /* LocalImagePhotoInfo.m */,
+				9051B91824DD092700BD9003 /* LocalMutableImgCollectionViewCell.h */,
+				9051B91C24DD092800BD9003 /* LocalMutableImgCollectionViewCell.m */,
+				9051B91424DD092700BD9003 /* LocalMutableImgPickView.h */,
+				9051B91924DD092800BD9003 /* LocalMutableImgPickView.m */,
+				9051B91524DD092700BD9003 /* LocalMutableImgPickViewController.h */,
+				9051B91624DD092700BD9003 /* LocalMutableImgPickViewController.m */,
+				9051B91D24DD092800BD9003 /* SelectImageCollectionView.h */,
+				9051B91E24DD092800BD9003 /* SelectImageCollectionView.m */,
+				9051B91B24DD092800BD9003 /* SelectImageCollectionViewCell.h */,
+				9051B91724DD092700BD9003 /* SelectImageCollectionViewCell.m */,
+			);
+			name = MutablePick;
+			sourceTree = "<group>";
+		};
+		9051B93324DD22AD00BD9003 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9051B93424DD22CF00BD9003 /* ConstantUI.h */,
+				9051B93924DD238700BD9003 /* EQXConstantUrl.h */,
+				9051B93824DD238700BD9003 /* EQXConstantUrl.m */,
+				9051B93524DD234300BD9003 /* CommUtls.h */,
+				9051B93624DD234400BD9003 /* CommUtls.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9051B93D24DD2A2200BD9003 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				9051B94824DD2DE300BD9003 /* PageActivityView.h */,
+				9051B94924DD2DE300BD9003 /* PageActivityView.m */,
+				9051B94B24DD2DE300BD9003 /* PageActivityViewInfo.h */,
+				9051B94C24DD2DE300BD9003 /* PageActivityViewInfo.m */,
+				9051B94A24DD2DE300BD9003 /* ToastActivityView.h */,
+				9051B94724DD2DE300BD9003 /* ToastActivityView.m */,
+			);
+			name = Loading;
+			sourceTree = "<group>";
+		};
+		9D8CA29B2F3126ACA8FD6665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2650FE94B616C80C4D34EC80 /* Pods_MyPhotos.framework */,
+				E070EB77D15050B43099E429 /* Pods_MyPhotos_MyPhotosUITests.framework */,
+				6DAEBC09E062886017E6085D /* Pods_MyPhotosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9049600B24DBFF7C00FF239F /* Build configuration list for PBXNativeTarget "MyPhotos" */;
 			buildPhases = (
+				2C2E93188F35D267BE971786 /* [CP] Check Pods Manifest.lock */,
 				90495FD524DBFF7A00FF239F /* Sources */,
 				90495FD624DBFF7A00FF239F /* Frameworks */,
 				90495FD724DBFF7A00FF239F /* Resources */,
+				2E8182A335A7DB92EC4FE113 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +309,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9049600E24DBFF7C00FF239F /* Build configuration list for PBXNativeTarget "MyPhotosTests" */;
 			buildPhases = (
+				7A2438FFB9F9636EE077A3BC /* [CP] Check Pods Manifest.lock */,
 				90495FF324DBFF7C00FF239F /* Sources */,
 				90495FF424DBFF7C00FF239F /* Frameworks */,
 				90495FF524DBFF7C00FF239F /* Resources */,
@@ -184,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9049601124DBFF7C00FF239F /* Build configuration list for PBXNativeTarget "MyPhotosUITests" */;
 			buildPhases = (
+				98EC46CC7C73195AB739C252 /* [CP] Check Pods Manifest.lock */,
 				90495FFE24DBFF7C00FF239F /* Sources */,
 				90495FFF24DBFF7C00FF239F /* Frameworks */,
 				9049600024DBFF7C00FF239F /* Resources */,
+				8C211F8E76744AFB8CA407B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,16 +413,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C2E93188F35D267BE971786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPhotos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E8182A335A7DB92EC4FE113 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPhotos/Pods-MyPhotos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPhotos/Pods-MyPhotos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPhotos/Pods-MyPhotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2438FFB9F9636EE077A3BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPhotosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C211F8E76744AFB8CA407B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPhotos-MyPhotosUITests/Pods-MyPhotos-MyPhotosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPhotos-MyPhotosUITests/Pods-MyPhotos-MyPhotosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPhotos-MyPhotosUITests/Pods-MyPhotos-MyPhotosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98EC46CC7C73195AB739C252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPhotos-MyPhotosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90495FD524DBFF7A00FF239F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9051B92224DD092800BD9003 /* LocalMutableImgPickView.m in Sources */,
 				90495FF224DBFF7C00FF239F /* main.m in Sources */,
+				9051B94F24DD2DE300BD9003 /* PageActivityViewInfo.m in Sources */,
+				9051B92424DD092800BD9003 /* SelectImageCollectionView.m in Sources */,
+				9051B93A24DD238700BD9003 /* EQXConstantUrl.m in Sources */,
 				90495FE724DBFF7A00FF239F /* SecondViewController.m in Sources */,
+				9051B92124DD092800BD9003 /* SelectImageCollectionViewCell.m in Sources */,
+				9051B92C24DD1FD400BD9003 /* PhoneAblumInfo.m in Sources */,
+				9051B92924DD1FAE00BD9003 /* LocalImagePickViewModel.m in Sources */,
+				9051B92024DD092800BD9003 /* LocalMutableImgPickViewController.m in Sources */,
+				9051B94D24DD2DE300BD9003 /* ToastActivityView.m in Sources */,
 				90495FDE24DBFF7A00FF239F /* AppDelegate.m in Sources */,
+				9051B93724DD234400BD9003 /* CommUtls.m in Sources */,
+				9051B93224DD207D00BD9003 /* LocalAlbumCell.m in Sources */,
+				9051B94E24DD2DE300BD9003 /* PageActivityView.m in Sources */,
+				9051B92324DD092800BD9003 /* LocalMutableImgCollectionViewCell.m in Sources */,
 				90495FE424DBFF7A00FF239F /* FirstViewController.m in Sources */,
 				90495FE124DBFF7A00FF239F /* SceneDelegate.m in Sources */,
+				9051B92524DD092800BD9003 /* LocalImagePhotoInfo.m in Sources */,
+				9051B92F24DD203D00BD9003 /* LocalAblumImageTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -433,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,11 +707,13 @@
 		};
 		9049600C24DBFF7C00FF239F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AE07D3310D821B07104A10 /* Pods-MyPhotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQED9MWFK9;
 				INFOPLIST_FILE = MyPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,11 +726,13 @@
 		};
 		9049600D24DBFF7C00FF239F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345427BB26330C488E59CCF5 /* Pods-MyPhotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQED9MWFK9;
 				INFOPLIST_FILE = MyPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +745,7 @@
 		};
 		9049600F24DBFF7C00FF239F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A0926876C4AAD40DDE7829 /* Pods-MyPhotosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +766,7 @@
 		};
 		9049601024DBFF7C00FF239F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26E87B6D103C2801143B9FA /* Pods-MyPhotosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +787,7 @@
 		};
 		9049601224DBFF7C00FF239F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70970CE202863762997CB8B /* Pods-MyPhotos-MyPhotosUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQED9MWFK9;
@@ -535,6 +806,7 @@
 		};
 		9049601324DBFF7C00FF239F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24DAE607DACFC905FBCAB17 /* Pods-MyPhotos-MyPhotosUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQED9MWFK9;

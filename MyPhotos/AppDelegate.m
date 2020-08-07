@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "ToastActivityView.h"
 
 @interface AppDelegate ()
+@property (nonatomic, strong) ToastActivityView *toastActivityView;
 
 @end
 
@@ -18,6 +20,44 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
+}
+
++ (AppDelegate *)getAppDelegate {
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+#pragma mark ActivityViews loading.
+- (void)showActivityView:(NSString *)text {
+    [self showActivityView:text inView:self.window];
+}
+
+- (void)showActivityView:(NSString *)text inView:(UIView *)view {
+    if (_toastActivityView == nil) {
+        ToastActivityView *toastActivityView = [[ToastActivityView alloc] init];
+        _toastActivityView = toastActivityView;
+    }
+    [_toastActivityView showActivityViewWithText:text superView:view];
+}
+
+- (void)hideActivityView {
+    [_toastActivityView hideActivityView];
+}
+
+- (void)hideActivityView:(BOOL)animated {
+    if (!animated) {
+        [_toastActivityView hideActivityViewWithNoneAnimation];
+    } else {
+        [self hideActivityView];
+    }
+}
+
+#pragma mark - 结果提示
+- (void)showFailedActivityView:(NSString *)text interval:(NSTimeInterval)time {
+    if (_toastActivityView == nil) {
+        ToastActivityView *toastActivityView = [[ToastActivityView alloc] init];
+        _toastActivityView = toastActivityView;
+    }
+    [_toastActivityView hideActivityViewWithRemoveTime:time text:text];
 }
 
 
